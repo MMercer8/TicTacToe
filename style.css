@@ -9,13 +9,7 @@ body{
     height: 100vh;
     background-color: #000;
 }
-.gameboard {
-    width: 500px;
-    background: #000;
-    display: grid;
-    grid-auto-flow: row;
-    justify-items: center;
-}
+
 .row {
     background-color: aqua;
     display: flex;
@@ -30,4 +24,12 @@ body{
     justify-content: center;
     align-items: center;
     border: 1px solid red;
+}
+.gameboard {
+    box-sizing: border-box;
+    background: #000;
+    border: 1px solid green;
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
 }
