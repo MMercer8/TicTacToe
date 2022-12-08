@@ -2,4 +2,32 @@
     padding: 0;
     margin: 0;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+.gameboard {
+    width: 500px;
+    background: #000;
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+}
+.row {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+}
 
+.tile{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
